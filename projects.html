@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>~/projects</title>
+<meta name="description" content="Personal coding homepage and projects.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+<nav aria-label="Main">
+<a href="index.html">~/home</a>
+<a href="about.html">~/about</a>
+<a href="projects.html" class="on">~/projects</a>
+<a href="contact.html">~/contact</a>
+</nav>
+<p class="prompt" data-type data-speed="40">ls -l projects/</p>
+<p data-type>3 projects found. Edit the cards below with your own.</p>
+<div class="reveal">
+<article class="proj"><h3>project-one</h3><p>One or two sentences on what it does and why you built it.</p><p class="tags"><span>python</span><span>cli</span></p><a href="https://github.com/YOUR-USERNAME/project-one">source</a></article>
+<article class="proj"><h3>project-two</h3><p>Describe the problem it solves and what you learned.</p><p class="tags"><span>javascript</span><span>web</span></p><a href="https://github.com/YOUR-USERNAME/project-two">source</a></article>
+<article class="proj"><h3>project-three</h3><p>Something in progress? Say so here.</p><p class="tags"><span>wip</span></p><a href="https://github.com/YOUR-USERNAME/project-three">source</a></article>
+</div>
+<footer class="reveal">Click or press any key to skip the typing. &copy; <span id="y"></span> &mdash; built for GitHub Pages.</footer>
+</div>
+<script>document.getElementById("y").textContent=new Date().getFullYear()</script>
+<script src="script.js"></script>
+</body>
+</html>

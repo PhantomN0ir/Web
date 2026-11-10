@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>~/home</title>
+<meta name="description" content="Personal coding homepage and projects.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+<nav aria-label="Main">
+<a href="index.html" class="on">~/home</a>
+<a href="about.html">~/about</a>
+<a href="projects.html">~/projects</a>
+<a href="contact.html">~/contact</a>
+</nav>
+<pre class="art" data-type data-mode="line" aria-label="Phantom NOi">
+ /$$$$$$$  /$$                             /$$                             /$$   /$$  /$$$$$$  /$$          
+| $$__  $$| $$                            | $$                            | $$$ | $$ /$$$_  $$|__/          
+| $$  \ $$| $$$$$$$   /$$$$$$  /$$$$$$$  /$$$$$$    /$$$$$$  /$$$$$$/$$$$ | $$$$| $$| $$$$\ $$ /$$  /$$$$$$ 
+| $$$$$$$/| $$__  $$ |____  $$| $$__  $$|_  $$_/   /$$__  $$| $$_  $$_  $$| $$ $$ $$| $$ $$ $$| $$ /$$__  $$
+| $$____/ | $$  \ $$  /$$$$$$$| $$  \ $$  | $$    | $$  \ $$| $$ \ $$ \ $$| $$  $$$$| $$\ $$$$| $$| $$  \__/
+| $$      | $$  | $$ /$$__  $$| $$  | $$  | $$ /$$| $$  | $$| $$ | $$ | $$| $$\  $$$| $$ \ $$$| $$| $$      
+| $$      | $$  | $$|  $$$$$$$| $$  | $$  |  $$$$/|  $$$$$$/| $$ | $$ | $$| $$ \  $$|  $$$$$$/| $$| $$      
+|__/      |__/  |__/ \_______/|__/  |__/   \___/   \______/ |__/ |__/ |__/|__/  \__/ \______/ |__/|__/
+</pre>
+<p class="prompt" data-type data-speed="45">./welcome.sh</p>
+<p data-type>Initializing connection... done.</p>
+<p data-type>Welcome to my corner of the internet. I write code, break things, and fix them again.</p>
+<p data-type>Pick a directory below to look around.</p>
+<ul class="menu reveal">
+<li><a href="about.html">about</a> <span class="dim">- who I am and what I use</span></li>
+<li><a href="projects.html">projects</a> <span class="dim">- things I've built</span></li>
+<li><a href="contact.html">contact</a> <span class="dim">- get in touch</span></li>
+</ul>
+<footer class="reveal">Click or press any key to skip the typing. &copy; <span id="y"></span> &mdash; built for GitHub Pages.</footer>
+</div>
+<script>document.getElementById("y").textContent=new Date().getFullYear()</script>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>~/about</title>
+<meta name="description" content="Personal coding homepage and projects.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+<nav aria-label="Main">
+<a href="index.html">~/home</a>
+<a href="about.html" class="on">~/about</a>
+<a href="projects.html">~/projects</a>
+<a href="contact.html">~/contact</a>
+</nav>
+<p class="prompt" data-type data-speed="40">cat about.txt</p>
+<p data-type>Hi, I'm a developer who likes building useful things from scratch.</p>
+<p data-type>Replace this paragraph with a short intro: what you work on, what got you into code, what you're learning now.</p>
+<p class="prompt" data-type data-speed="40">ls skills/</p>
+<div class="reveal">
+<dl>
+<dt>languages</dt><dd>JavaScript, Python, HTML/CSS (edit me)</dd>
+<dt>tools</dt><dd>Git, Linux, VS Code (edit me)</dd>
+<dt>learning</dt><dd>Add what you're studying right now</dd>
+</dl>
+</div>
+<footer class="reveal">Click or press any key to skip the typing. &copy; <span id="y"></span> &mdash; built for GitHub Pages.</footer>
+</div>
+<script>document.getElementById("y").textContent=new Date().getFullYear()</script>
+<script src="script.js"></script>
+</body>
+</html>

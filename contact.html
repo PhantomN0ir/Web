@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>~/contact</title>
+<meta name="description" content="Personal coding homepage and projects.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+<nav aria-label="Main">
+<a href="index.html">~/home</a>
+<a href="about.html">~/about</a>
+<a href="projects.html">~/projects</a>
+<a href="contact.html" class="on">~/contact</a>
+</nav>
+<p class="prompt" data-type data-speed="40">cat contact.txt</p>
+<p data-type>Want to collaborate or just say hi? Reach me here:</p>
+<ul class="menu reveal">
+<li>github: <a href="https://github.com/YOUR-USERNAME">github.com/YOUR-USERNAME</a></li>
+<li>email: <a href="mailto:you@example.com">you@example.com</a></li>
+</ul>
+<footer class="reveal">Click or press any key to skip the typing. &copy; <span id="y"></span> &mdash; built for GitHub Pages.</footer>
+</div>
+<script>document.getElementById("y").textContent=new Date().getFullYear()</script>
+<script src="script.js"></script>
+</body>
+</html>
